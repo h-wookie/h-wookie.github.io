@@ -1,0 +1,14 @@
+# main links
+main:
+  - title: "홈"
+    url: /
+  - title: "소개"
+    url: /about/
+  - title: "카테고리"
+    url: /categories/
+  - title: "태그"
+    url: /tags/
+  - title: "시리즈"
+    url: /series/
+  - title: "아카이브"
+    url: /year-archive/

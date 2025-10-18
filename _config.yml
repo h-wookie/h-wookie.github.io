@@ -1,0 +1,176 @@
+# Site Settings
+locale: "ko-KR"
+title: "Cloud Native Engineering Journal"
+title_separator: "-"
+subtitle: "Platform Engineering & Cloud Native 기술 블로그"
+name: "유형욱"
+description: "Platform Engineering, Cloud Native Security, Kubernetes 생태계의 실무 경험과 기술 트렌드를 공유합니다."
+url: "https://h-wookie.github.io"
+baseurl: ""
+repository: "h-wookie/h-wookie.github.io"
+teaser: # path of fallback teaser image
+logo: # path of logo image to display in the masthead
+masthead_title: # overrides the website title displayed in the masthead
+
+# Site Author
+author:
+  name: "유형욱 (Hyungwook Yu)"
+  avatar: # path of avatar image
+  bio: "Platform Engineering & Cloud Native Security Specialist"
+  location: "Seoul, Korea"
+  email: "hyungwook.yu@gmail.com"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/h-wookie"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hyungwook6243"
+    - label: "CNCF"
+      icon: "fas fa-fw fa-cloud"
+      url: "#"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/h-wookie"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/hyungwook6243"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: Asia/Seoul
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true
+      toc_label: "목차"
+      show_date: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  # _drafts
+  - scope:
+      path: "_drafts"
+      type: drafts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: false
+      related: false
+      toc: true
+      toc_sticky: true
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
