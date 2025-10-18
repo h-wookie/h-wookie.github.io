@@ -5,13 +5,6 @@ permalink: /categories/
 author_profile: true
 ---
 
----
-title: "카테고리"
-layout: categories
-permalink: /categories/
-author_profile: true
----
-
 ## 📂 주요 카테고리
 
 ### 🔐 Security

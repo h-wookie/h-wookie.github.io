@@ -151,6 +151,7 @@ defaults:
       toc_sticky: true
       toc_label: "목차"
       show_date: true
+      classes: wide
   # _pages
   - scope:
       path: "_pages"
@@ -158,6 +159,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+      toc: true
+      toc_sticky: true
+      toc_label: "목차"
+      classes: wide
   # _drafts
   - scope:
       path: "_drafts"
@@ -171,6 +176,11 @@ defaults:
       related: false
       toc: true
       toc_sticky: true
+      classes: wide
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Custom JS
+head_scripts:
+  - /assets/js/toc-toggle.js
