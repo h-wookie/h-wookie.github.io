@@ -43,7 +43,7 @@ IDP를 제대로 구축하려면 다양한 시스템을 통합해야 합니다. 
 |------|---------------|-----------|------|----------|
 | **Backstage** (Spotify) | 오픈소스 (Apache 2.0) | 자가 호스팅 | 플러그인 생태계, 대규모 커뮤니티, CNCF Incubating | 설치·운영 책임 필요 |
 | **Port** | 상용 (SaaS 요금제) | 클라우드 | 직관적 UI, 워크플로 자동화, 빠른 온보딩 | 사용량 기반 과금, 커스터마이징 제약 |
-| **HashiCorp Waypoint** | 상용(SaaS 요금제) | 자가 호스팅 | Terraform/Vault 등 HashiCorp 도구와 자연스러운 연동 | Web 포털 기능이 제한적, HashiCorp 에코시스템 의존 |
+| **HashiCorp Waypoint** | 상용(SaaS 요금제) | 클라우드 | Terraform/Vault 등 HashiCorp 도구와 자연스러운 연동 | Web 포털 기능이 제한적, HashiCorp 에코시스템 의존 |
 | **Humanitec Platform Orchestrator** | 상용 | SaaS/Hybrid | 환경·인프라 관리 자동화, RBAC | 비용·벤더 종속성 고려 필요 |
 
 <div style="display:flex; gap:20px; align-items:center; flex-wrap:wrap; margin: 16px 0 8px 0;">
