@@ -1,5 +1,5 @@
 ---
-title: "플랫폼 엔지니어링과 IDP, 그리고 Backstage 구성 살펴보기"
+title: "Backstage 실험 기록 ① - 플랫폼 엔지니어링과 IDP, 그리고 Backstage 구성 살펴보기"
 excerpt: "Platform Engineering이 다시 주목받는 이유, 개발자 포털(IDP)의 역할, Backstage의 핵심 구성 요소와 운영 포인트를 간단히 정리했습니다."
 categories:
   - Platform-Engineering
